@@ -34,7 +34,7 @@ categories: [IoT, Reverse Engineering, CH341A, ASK]
 - 所有码元均为`001`或`110`组合
 - 码元周期严格保持120μs
 
-![信号波形示意图](assets/images/2024-05-20-light-remote/waveform.png)
+![信号波形示意图](/assets/images/2024-05-20-light-remote/waveform.png)
 
 **关键发现**：
 - 采用3位Manchester编码变种

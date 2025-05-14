@@ -51,7 +51,7 @@ categories: [IoT, Reverse Engineering, CH341A, ASK]
 
 - 树莓派硬件SPI：片上硬件SPI只能2分频，拆不出2500bps，且SPI tx fifo只有16个字节，用更高的速率去模拟缓冲不够大。
 
-### 最终方案方案（CH341A USB转SPI）
+### 最终方案（CH341A USB转SPI）
 选择CH341A方案的核心优势：
 - 支持任意整数分频：`波特率 = 12MHz / N / M`，N为2幂倍分频，M为整数除法分频
 - 4KB发送缓冲足够装下几百帧报文

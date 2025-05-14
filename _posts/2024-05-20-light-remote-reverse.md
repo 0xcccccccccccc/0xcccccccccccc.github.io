@@ -7,7 +7,7 @@ categories: [IoT, Reverse Engineering, CH341A, ASK]
 ## 背景需求
 在北京一楼的出租屋里，我通过淘宝购置了一套智能灯具套件。其核心功能是通过遥控器触发舵机按压实体开关，但原始设计仅支持手动遥控操作。为实现**天亮自动开灯**的智能场景，我决定将设备接入HomeAssistant系统。
 
-![遥控器拆解图](/assets/images/2024-05-20-light-remote/teardown.png)
+![遥控器拆解图](/assets/images/2024-05-20-light-remote/teardown.jpg)
 
 ## 逆向工程挑战
 拆解遥控器后发现：
